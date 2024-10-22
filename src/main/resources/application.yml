@@ -13,5 +13,8 @@ spring:
     hibernate:
       ddl-auto: validate
   flyway:
-    enabled: true
-    baseline-on-migrate: true
+    enabled: false
+    baseline-on-migrate: false
+
+server:
+  port: 8082
